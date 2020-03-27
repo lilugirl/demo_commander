@@ -1,0 +1,25 @@
+{
+  "name": "liuyi-commander",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "q-init": "./bin/init-project.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "fs-extra": "^9.0.0",
+    "path": "^0.12.7",
+    "through2": "^3.0.1",
+    "vinyl-fs": "^3.0.3",
+    "which": "^2.0.2"
+  }
+}
